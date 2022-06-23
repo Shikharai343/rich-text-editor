@@ -1,0 +1,30 @@
+#editor {
+    margin: 40px
+}
+#button {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 24px;
+}
+#output {
+    border: 1px solid;
+    min-height: 10rem;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.ql-container {
+    min-height: 10rem;
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+.ql-editor {
+    height: 100%;
+    flex: 1;
+    overflow-y: auto;
+    width: 100%;
+  }
